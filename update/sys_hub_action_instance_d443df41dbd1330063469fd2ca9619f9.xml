@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment>Log needIt task closure</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">89a057cddb91330063469fd2ca9619ae</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 12:02:42</sys_created_on>
+        <sys_id>d443df41dbd1330063469fd2ca9619f9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_311390_needit_sp">deb2eab0db55330063469fd2ca961984</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">deb2eab0db55330063469fd2ca961984</sys_scope>
+        <sys_update_name>sys_hub_action_instance_d443df41dbd1330063469fd2ca9619f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 12:24:58</sys_updated_on>
+        <ui_id>fd15267d-2fb7-4b7b-a57e-5104c4307c22</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d443df41dbd1330063469fd2ca9619f9"/>
+    <sys_element_mapping action="delete_multiple" query="id=d443df41dbd1330063469fd2ca9619f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>d443df41dbd1330063469fd2ca9619f9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 12:02:42</sys_created_on>
+        <sys_id>1843df41dbd1330063469fd2ca9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 12:02:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{subflow.reason}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>d443df41dbd1330063469fd2ca9619f9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 12:21:26</sys_created_on>
+        <sys_id>2e875f05dbd1330063469fd2ca9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 12:21:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{subflow.reason}}</value>
+    </sys_element_mapping>
+</record_update>
